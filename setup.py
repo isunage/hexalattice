@@ -5,7 +5,7 @@ import pathlib
 HERE = pathlib.Path(__file__).parent
 
 # The text of the README file
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding='utf_8_sig') as fh:
     long_description = fh.read()
 
 # This call to setup() does all the work
